@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Research Profile</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        header {
+            background-color: #003366;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #004080;
+            padding: 10px 0;
+        }
+        nav a {
+            color: #fff;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+        .bio, .projects, .contact {
+            margin-bottom: 40px;
+        }
+        .bio h2, .projects h2, .contact h2 {
+            color: #004080;
+        }
+        .projects ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .projects ul li {
+            background-color: #e6e6e6;
+            margin: 10px 0;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        .contact form {
+            display: flex;
+            flex-direction: column;
+        }
+        .contact input, .contact textarea {
+            margin-bottom: 10px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .contact button {
+            background-color: #003366;
+            color: #fff;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        footer {
+            background-color: #003366;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Your Name</h1>
+        <p>Researcher and Scholar in Carbon Capture and Utilization</p>
+    </header>
+    <nav>
+        <a href="#bio">Bio</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="container">
+        <section class="bio" id="bio">
+            <h2>About Me</h2>
+            <p>Brief bio about your academic background, research interests, and current work.</p>
+            <p>Include information about your PhD research on carbon capture and utilization and any other relevant details.</p>
+            <p>Connect with me on:
+                <a href="https://www.linkedin.com" target="_blank">LinkedIn</a> | 
+                <a href="https://twitter.com" target="_blank">Twitter</a>
+            </p>
+        </section>
+        <section class="projects" id="projects">
+            <h2>Projects and Work Experience</h2>
+            <ul>
+                <li>
+                    <strong>Project Title 1</strong>
+                    <p>Brief description of the project, your role, and the outcome.</p>
+                </li>
+                <li>
+                    <strong>Project Title 2</strong>
+                    <p>Brief description of the project, your role, and the outcome.</p>
+                </li>
+                <!-- Add more projects as needed -->
+            </ul>
+        </section>
+        <section class="contact" id="contact">
+            <h2>Contact Me</h2>
+            <form>
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 Your Name. All rights reserved.</p>
+    </footer>
+</body>
+</html>
